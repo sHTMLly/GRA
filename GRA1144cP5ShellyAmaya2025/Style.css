@@ -1,0 +1,29 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  background-color: lightyellow;
+}
+wrapper {
+  width: 1366px;
+  margin: auto;
+  display: block;
+  padding: 10px;
+  background-color: rgba(255,255,255,0.50);
+}
+main {
+  height: 500px;
+}
+nav {
+    background-color: rgba(3,119,255,1.00);
+}
+nav a li {
+  padding: 10px 20px;
+  display: inline-block;
+  color: rgba(255,255,255,1.00);
+}
+nav a li:hover {
+  background-color: red;
+}
+footer {
+  text-align: center;
+}
