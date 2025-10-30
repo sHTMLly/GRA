@@ -1,0 +1,459 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  background-color: #FDBE00;
+}
+wrapper {
+  width: 1366px;
+  margin-top: auto;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: auto;
+  display: block;
+  padding: 10px;
+  background-color: rgba(255,255,255,0.50);
+}
+header{
+  margin: 0;
+  padding: 25px;
+  text-align: center;
+}
+main {
+  height: auto;
+}
+nav {
+  margin-top: 20px;
+  background-color: #0D7DBF;
+  height: 65px;
+}
+nav a li {
+  padding: 10px 20px;
+  display: inline-block;
+  color: rgb(255,255,255);
+  font-family: "Atma", system-ui;
+  font-size: 28px;
+}
+
+nav a li:hover {
+  background-color: #B82326;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+  height: 100px;
+  text-align: center;
+  font-family: "Atma", system-ui;
+  font-weight: 700;
+  font-size: 80px;
+  text-shadow: 2px 2px 2px #000000;
+  text-transform: uppercase; 
+}
+h4 {
+  font-size: 16px;
+  line-height: 10px;
+}
+
+h3{
+  font-size: 24px;
+}
+
+p{ 
+  font-size: 18px;
+  padding-bottom: 15px;
+} 
+/*--------------------*/
+.home{
+  margin: 100px 90px 100px 150px;
+  display: inline-block;
+  vertical-align: middle;
+}
+home{
+  margin-top: 50px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+home>h3{
+  margin: 0;
+  padding: 0px;
+  line-height: 1px;
+  font-family: "Yusei Magic", sans-serif;
+  font-size: 30px;
+  color:#F25D30
+}
+home>h1{
+  margin: 0;
+  padding-top: 15px;
+  font-family: "atma";
+  font-weight: 700;
+  font-size: 65px;
+  color: #149894;
+}
+home>a{
+  text-decoration: none;
+}
+.home-link{
+  margin-top: 10px;
+  margin-left: 120px;
+  padding: 25px 0px;
+  width: 240px;
+  font-family: "Yusei Magic", sans-serif;
+  font-size: 40px;
+  background-color: transparent;
+  color: #A02B21;
+  border-radius: 24px;
+  border: medium solid #A02B21;
+}
+.home-link:hover{
+  color:white;
+  background-color: #fdb515;
+  border-color: #fdb515;
+}
+/*--------------------*/
+.news-r{
+  padding: 40px 0px 20px 90px;
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+news-1{
+  padding: 0px 90px 0px 50px;
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+.news-l{
+  display: inline-block;
+  padding: 20px 60px 20px 970px; 
+  vertical-align: top;
+  text-align: right;
+  background-color: rgba(255,255,255,0.40);
+}
+news-2{
+  padding: 0px 0px 0px 110px;
+  margin-top: -200px;
+  display: inline-block;
+  text-align: right;
+  vertical-align: top;
+}
+.news-t{
+  padding: 20px 0px;
+  margin-left: -827px; 
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+news-3{
+  padding: 30px 90px 0px 50px;
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+.news-h2{
+  color: #F25D30;
+  margin: 0px;
+  padding-bottom: 20px;
+}
+.news-h4 {
+  margin: 0;
+  padding: 10px 0px;
+  font-size: 20px;
+  font-family: "Yusei Magic", sans-serif;
+}
+.news-h3 {
+  margin: 0;
+  line-height: 1.25;
+  font-size: 34px;
+  font-family: "Yusei Magic", sans-serif;
+}
+.news-p {
+  margin: 0;
+  padding-top: 10px;
+  font-size: 24px; 
+  font-family: "Yusei Magic", sans-serif;
+}
+/*--------------------*/
+.music-h2{
+  color: #3097cb;
+  margin: 0px;
+  padding-bottom: 20px;
+}
+.player-1{
+  margin: 20px 30px;
+  padding: 0px 25px;
+  width: 49%;
+  display: inline-block;
+}
+stream{
+  padding: 0px;
+  margin-left: -10px; 
+  width: 39%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+stream>a{
+  text-decoration: none;
+}
+.music-h3{
+  margin-top: 120px;
+  margin-bottom: 0px;
+  font-family: "Atma", system-ui;
+  font-weight: 600;
+  font-size: 50px;
+  color: #C52729;
+}
+.music-icon{
+  margin: 0px 10px;
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+}
+.music-icon:hover{
+  cursor: pointer;
+  border: dashed;
+  border-width: medium; 
+  border-color: #896723;
+}
+/*--------------------*/
+section{
+  margin: 0;
+  padding-left: 150px;
+}
+.videos{
+  margin: 10px 50px;
+  padding: 3px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 35%;
+  border: dashed medium #F25D30;
+}
+.videos:hover{
+  cursor: pointer;
+}
+.video-h2{
+  color: #fdb515;
+  margin: 0px;
+  padding-bottom: 20px; 
+}
+/*--------------------*/
+tour-list{
+  margin: 0;
+  padding-bottom: 20px;
+  display: block;
+  text-align: center; 
+  font-family: "Yusei Magic", sans-serif;
+}
+tour-dates{
+  width: 20%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.tour-link{
+  display: inline-block;
+  margin: 0;
+  padding: 5px 15px;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #138D89;
+  border-radius: 24px;
+  }	
+.tour-link:hover {  
+			background-color: #138d8980;
+			color: #FFFFFF;
+      border: medium dashed #138d89;
+  cursor: pointer;
+}
+.tour-video{
+  display: block;
+  height: 400px;
+  padding-left: 425px;
+  text-align: center;
+}
+.tour-h2{
+  color: #EF1F24;
+  padding-bottom: 20px;
+}
+.tour-h3 {
+  margin: 0;
+  padding: 50px 5px 15px;
+  font-size: 28px;
+}
+.tour-p {
+  margin: 0;
+  padding: 5px 5px 15px;
+  font-size: 20px; 
+  line-height: 10px;
+}
+/*--------------------*/
+.socials-h2{
+  margin: 0;
+  color: #FDBE00;
+  padding-bottom: 20px;
+}
+.icon{
+  margin: 50px 20px;
+  text-align: center;
+  vertical-align: middle;
+}
+.icon:hover{
+  cursor: pointer;
+  border: dashed;
+  border-width: medium; 
+  border-color: #F12224;
+}
+socials{
+  margin: 10px;
+  padding: 20px 180px;
+  display: inline-block;
+  text-align: center;
+}
+/*--------------------*/
+.mailing{
+  margin: 0;
+  display: block;
+  padding: 5px 350px 0px;
+}
+.mailing-h2{
+  color: #F25D30;
+  padding-bottom: 15px;
+}
+/*--------------------*/
+.merch-h2{
+  color: #149894;
+  padding-bottom: 15px;
+}
+shirt{
+  margin: 20px 65px;
+  padding-top: 10px;
+  display: inline-block;
+  width: 23%;
+  vertical-align: middle;
+  text-align: center;
+  border: double medium #F25D30;
+}
+hoodie{
+  margin: 20px 0px;
+  padding-top: 10px;
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+  vertical-align: middle;
+  text-align: center;
+  border: double medium #39A1D3;
+}
+shirt2{
+  margin: 20px 40px;
+  padding-top: 10px;
+  display: inline-block;
+  width: 28%;
+  vertical-align: middle;
+  text-align: center;
+  border: double thick #FDBE00;
+}
+sticker{
+  margin: 20px 65px;
+  padding-top: 10px;
+  display: inline-block;
+  width: 23%;
+  vertical-align: top;
+  text-align: center;
+  border: double medium #FDBE00;
+}
+poster{
+  margin: 20px 0px;
+  padding-top: 10px;
+  display: inline-block;
+  width: 30%;
+  vertical-align: middle;
+  text-align: center;
+  border: double medium #F25D30;
+}
+booklet{
+  margin: 20px 40px;
+  padding-top: 10px;
+  display: inline-block;
+  width: 28%;
+  vertical-align: top;
+  text-align: center;
+  border: double medium #149894;
+}
+.merch-p{
+  margin: 0;
+  padding: 5px;
+  font-family: "atma", system-ui;
+  font-weight: 500;
+  font-size: 35px; 
+  color: #FFFFFF;
+  background-color: #14989490;
+}
+/*--------------------*/
+blog{
+  display: block;
+  padding: 20px;
+  text-align: center;
+  font-family: "Yusei Magic", sans-serif;
+}
+blog-1{
+  margin: 20px;
+  padding: 0px 60px;
+  width: 35%;
+  display: inline-block;
+
+}
+blog-2{
+  margin: 20px 0px;
+  padding: 0px;
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+}
+.blog-h2{
+  color: #3097cb;
+  /*text-shadow: 4px 4px #0772b4;*/
+}
+.blog-h4 {
+  margin: 0;
+  padding: 15px;
+  font-size: 18px;
+}
+.blog-h3 {
+  margin: 0;
+  font-size: 24px;
+  line-height: 25px;
+}
+.blog-p {
+  margin: 0;
+  padding-top: 10px;
+  font-size: 20px;
+}
+/*--------------------*/
+.privacy-h2{
+  color: #F25D30;
+  padding-bottom: 15px;
+}
+.privacy-h4{
+  font-size: 28px;
+  font-family: "Yusei Magic", sans-serif;
+}
+.privacy-p{
+  padding: 0px;
+  font-size: 16px;
+  font-family: "Yusei Magic", sans-serif;
+}
+/*--------------------*/
+footer {
+  margin:0;
+  padding: 5px;
+  font-family: "atma";
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  line-height: 1.25;
+  color: #FFFFFF;
+  background-color: #0D6662;
+}
