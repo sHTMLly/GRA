@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Welcome To Site | Shelly Amaya, 2025</title>
+<style type="text/css">
+body {
+	margin: 0;
+	background-color: lightblue;
+	background-size: cover;
+	height: 100vh;
+	background-image: url(AdobeStock_293350006.jpeg);
+}
+wrapper {
+	margin: auto;
+	width: 1200px;
+	display: block;
+}
+header {
+	height: 100px;
+	background-color: gold;
+}
+#Tabs1 ul img {
+	width: 75px;
+	height: auto;
+	vertical-align: bottom;
+}
+#Tabs1 ul p {
+	text-align: center;
+}
+#Tabs1 ul li {
+	border-radius: 10px 10px 0px 0px;
+	text-align: center;
+}
+#Tabs1 ul {
+	background-image: none;
+	border: none;
+	background-color: rgba(0,0,0,0.50);
+	}
+	#Tabs1 {
+	background-image: none;
+	border: none;
+	background-color: rgba(0,0,0,0.30);
+}
+#Tabs1 div {
+	background-color: rgba(255,255,255,0.50);
+}
+.ui-state-active {
+	background-color: rgba(247,163,164,1.00);
+}
+</style>
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.tabs.min.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.tabs.min.js"></script>
+</head>
+
+<body>
+<wrapper>
+	<header></header>
+	<main>
+		<div id="Tabs1">
+			<ul> <!--DW includes a background banner to ul. Create selector #Tabs1 ul-->
+				<li><a href="#tabs-1"><img src="plane.png" alt="" width="384" height="336">
+					<p>Flights</p>
+				</a></li>
+				<li><a href="#tabs-2"><img src="hotel.png" alt="" width="10" height="18">
+					<p>Hotels</p>
+				</a></li>
+				<li><a href="#tabs-3"><img src="car.png" alt="" width="384" height="367">
+					<p>Cars</p>
+				</a></li>
+				<li><a href="#tabs-4"><img src="cruise.png" alt="" width="384" height="384">
+					<p>Cruises</p>
+				</a></li>
+				<li><a href="#tabs-5"><img src="camera.png" alt="" width="384" height="384">
+					<p>Things to Do</p>
+				</a></li>
+			</ul>
+			<div id="tabs-1">
+				<p>Content 1</p>
+			</div>
+			<div id="tabs-2">
+				<p>Content 2</p>
+			</div>
+			<div id="tabs-3">
+				<p>Content 3</p>
+			</div>
+			<div id="tabs-4">
+				<p>Content 4</p>
+			</div>
+			<div id="tabs-5">
+				<p>Content 5</p>
+			</div>
+		</div>
+	</main>
+	<footer></footer>
+</wrapper>
+<script type="text/javascript">
+$(function() {
+	$( "#Tabs1" ).tabs(); 
+});
+</script>
+</body>
+</html>
